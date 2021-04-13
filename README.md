@@ -214,6 +214,8 @@ ahoy.configure({
   trackVisits: true,
   cookies: true,
   cookieDomain: null,
+  cookieSameSite: null,
+  cookieSecure: null,
   headers: {},
   visitParams: {},
   withCredentials: false,
