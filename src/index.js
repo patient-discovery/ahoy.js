@@ -449,7 +449,7 @@ ahoy.trackView = function (additionalProperties) {
 ahoy.trackClicks = function () {
   onEvent("click", "a, button, input[type=submit]", function (e) {
     let target = e.target;
-    let properties = eventProperties(e);
+    let properties = eventProperties.call(this, e);
     properties.text = properties.tag == "input" ? target.value : (target.textContent || target.innerText || target.innerHTML).replace(/[\s\r\n]+/g, " ").trim();
     properties.href = target.href;
 

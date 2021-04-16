@@ -1,6 +1,6 @@
 {
   "name": "@patient-discovery/ahoy.js",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "homepage": "https://github.com/patient-discovery/ahoy.js",
   "description": "Simple, powerful JavaScript analytics",
   "main": "dist/ahoy.js",
